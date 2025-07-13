@@ -1,0 +1,50 @@
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 24px 16px;
+  width: 220px;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+
+
+.card-icon {
+  
+  margin-bottom: 12px;
+   font-size: 36px;
+  color: rgba(77, 77, 221, 0.885);    
+ 
+}
+
+
+.card-title {
+  
+  color: black;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 1.1rem;
+letter-spacing: 0.03em;
+line-height: 1.4;
+
+
+
+ 
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}
